@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DA0012E27A08B9A00C0BB3B /* SliderElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA0012D27A08B9A00C0BB3B /* SliderElement.swift */; };
 		1DC71B8427A07DBD004B921D /* ColorMixupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC71B8327A07DBD004B921D /* ColorMixupApp.swift */; };
 		1DC71B8627A07DBD004B921D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC71B8527A07DBD004B921D /* ContentView.swift */; };
 		1DC71B8827A07DBF004B921D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC71B8727A07DBF004B921D /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DA0012D27A08B9A00C0BB3B /* SliderElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderElement.swift; sourceTree = "<group>"; };
 		1DC71B8027A07DBD004B921D /* ColorMixup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMixup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC71B8327A07DBD004B921D /* ColorMixupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMixupApp.swift; sourceTree = "<group>"; };
 		1DC71B8527A07DBD004B921D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				1DC71B8327A07DBD004B921D /* ColorMixupApp.swift */,
 				1DC71B8527A07DBD004B921D /* ContentView.swift */,
+				1DA0012D27A08B9A00C0BB3B /* SliderElement.swift */,
 				1DC71B8727A07DBF004B921D /* Assets.xcassets */,
 				1DC71B8927A07DBF004B921D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA0012E27A08B9A00C0BB3B /* SliderElement.swift in Sources */,
 				1DC71B8627A07DBD004B921D /* ContentView.swift in Sources */,
 				1DC71B8427A07DBD004B921D /* ColorMixupApp.swift in Sources */,
 			);
