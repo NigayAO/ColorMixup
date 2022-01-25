@@ -52,8 +52,8 @@ struct ColorView: View {
     
     var body: some View {
         RoundedRectangle(cornerRadius: 20)
+            .foregroundColor(Color(red: red, green: green, blue: blue))
             .frame(width: 300, height: 150)
-            .foregroundColor(Color(.sRGB, red: red, green: green, blue: blue, opacity: 1.0))
             .overlay(RoundedRectangle(cornerRadius: 20).stroke(Color.white, lineWidth: 5))
             .shadow(radius: 10)
     }
