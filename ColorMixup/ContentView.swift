@@ -32,7 +32,7 @@ struct ContentView: View {
         .toolbar {
             ToolbarItemGroup(placement: .keyboard) {
                 Spacer()
-                Button(action: { donePressed(for: redValue, with: redStringValue) }) {
+                Button(action: { donePressed()}) {
                     Text("Done")
                 }
                 .alert("Input wrong!", isPresented: $alertPresenter, actions: {}) {
@@ -44,24 +44,7 @@ struct ContentView: View {
         Spacer()
     }
     
-    private func donePressed(for value: Double, with string: String) {
-        
-        guard let digit = Double(string) else { return }
-        if digit <= 255 {
-            switch value {
-            case redValue:
-                redValue = digit
-                redStringValue = ""
-            case greenValue:
-                greenValue = digit
-                greenStringValue = ""
-            default:
-                blueValue = digit
-                blueStringValue = ""
-            }
-        } else {
-            alertPresenter.toggle()
-        }
+    private func donePressed() {
         isInputActive = false
         
     }
